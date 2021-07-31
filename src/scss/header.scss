@@ -16,10 +16,10 @@
   }
 
   &__logo {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      transform: translate3d(-50%,0,0);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -35,12 +35,34 @@
     list-style-type: none;
     padding-left: 0;
     li {
-        padding: 0 37.5px;
+      padding: 0 37.5px;
+      position: relative;
       &:nth-child(2) {
         padding-right: 110px;
       }
       &:nth-child(3) {
         padding-left: 110px;
+      }
+      &::after {
+        content: "";
+        width: 3px;
+        height: 3px;
+        background-color: #4d4959;
+        background-repeat: 50%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin: -3px 0 0 0;
+      }
+      &:nth-child(2) {
+        &::after {
+          display: none;
+        }
+      }
+      &:last-child {
+        &::after {
+          display: none;
+        }
       }
     }
   }
