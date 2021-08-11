@@ -1,10 +1,18 @@
 @import "~normalize.css";
 @import "./header.scss";
+@import "./generation.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap");
 
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .wrapper {
   overflow: hidden;
+  min-height: 100vh;
   .page {
     position: absolute;
     top: 0;
@@ -13,6 +21,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
     .main-screen {
       flex: 1 0 100%;
       position: relative;
