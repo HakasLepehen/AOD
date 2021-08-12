@@ -4,6 +4,10 @@ import "../img/bg_main.jpg";
 import "./ibg";
 import "../img/logo.png";
 import '../img/generation/01.png';
+import '../img/brands/bicycle-company-logo.png';
+import '../img/brands/01.jpeg';
+import '../img/brands/02.jpg';
+import '../img/brands/vintage-oliva-logo.png';
 
 document.querySelector(".wrapper").classList.add("loaded");
 

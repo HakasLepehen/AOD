@@ -6,7 +6,7 @@ function ibg() {
         "url(" + ibg[i].querySelector("img").getAttribute("src") + ")";
     }
   }
-  console.log('IBG сработал!');
+  console.log("IBG сработал!");
 }
 
 ibg();
