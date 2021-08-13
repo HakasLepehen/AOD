@@ -1,32 +1,40 @@
 .brands {
-    
-    &__row {
-        display: flex;
-        min-height: 500px;
-        text-align: center;
-    }
+  &__row {
+    display: flex;
+    min-height: 500px;
+    text-align: center;
+  }
 
-    &__column {
-        background-color: red;
-        flex-basis: 33.333%;
-        flex-shrink: 2;
-        &_b {
-        background-color: royalblue;
-        // flex-basis: 66.666%;
-        background: center/cover no-repeat url(../img/brands/01.jpeg);
-        display: flex;
-        align-content: center;
-        flex: 0 1 66.666%;
-        }
+  &__column {
+    background-color: red;
+    flex-basis: 33.333%;
+    flex-shrink: 2;
+    &_b {
+      // background-color: royalblue;
+      // flex-basis: 66.666%;
+      background: center/cover no-repeat url(../img/brands/01.jpeg);
+      // display: flex;
+      // align-content: center;
+      flex: 0 1 66.666%;
     }
+  }
 
-    &__item {
-    }
+  &__item {
+  }
 }
 
 .item {
-    display: block;
-    margin: auto;
-    &__logo {
-    }
+    display: none;
+  display: block;
+  background-color: rgba(39, 207, 45, 0.2);
+  width: 100%;
+  height: 100%;
+  &::hover {
+    // display: block;
+  }
+
+  &__logo {
+    position: relative;
+    top: 50%;
+  }
 }
