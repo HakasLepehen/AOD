@@ -13,6 +13,7 @@ import '../img/brands/la-boriosa-img.jpeg';
 import '../img/brands/vintage-bicycles-logo.png';
 import '../img/brands/since-bicycles.png';
 import '../img/brands/mavic.jpeg';
+import '../img/brands/hulot-logo.png';
 
 document.querySelector(".wrapper").classList.add("loaded");
 
