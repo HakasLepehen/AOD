@@ -1,0 +1,32 @@
+.slider {
+  padding: 120px 60px;
+
+  @media (max-width: 900px) {
+    padding: 80px 0;
+  }
+  @media (max-width: 600px) {
+    padding: 30px 0;
+  }
+  &__block {
+    text-align: center;
+    &__icon {
+      margin: 0 0 33px 0;
+    }
+    .slider__title {
+      margin: 0px 0px 20px 0px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #353738;
+      letter-spacing: 0.1em;
+      span {
+        color: #848789;
+        font-weight: 300;
+      }
+    }
+    &__text {
+      color: #848789;
+      font-size: 18px;
+      line-height: 34px;
+    }
+  }
+}
