@@ -8,6 +8,11 @@ import '../img/brands/bicycle-company-logo.png';
 import '../img/brands/01.jpeg';
 import '../img/brands/02.jpg';
 import '../img/brands/vintage-oliva-logo.png';
+import '../img/brands/la-boriosa-logo.png';
+import '../img/brands/la-boriosa-img.jpeg';
+import '../img/brands/vintage-bicycles-logo.png';
+import '../img/brands/since-bicycles.png';
+import '../img/brands/mavic.jpeg';
 
 document.querySelector(".wrapper").classList.add("loaded");
 
