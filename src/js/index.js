@@ -36,17 +36,16 @@ const switchSlide = () => {
   const btns = document.querySelectorAll('.pagination .pagination__list li button');
   let btnActive = document.querySelector('.pagination .pagination__list li button.active');
   const slide = document.querySelector('.slider__block');
-  let slideWidth = window.getComputedStyle(document.querySelector('.slider__item.slide')).width;
   let activeIndex = 1;
-  
+  console.log(slide.clientWidth)
+
   btns.forEach((element, index) => {
-    console.log(slideWidth);
     element.addEventListener('click', (event) => {
       activeIndex = -index;
       btnActive.classList.toggle('active');
       btnActive = event.currentTarget;
       event.currentTarget.classList.toggle('active');
-      document.querySelector('.slider__block').style.transform = `translateX(${slideWidth * activeIndex}px)`;
+      document.querySelector('.slider__block').style.transform = `translateX(${100 * activeIndex}%)`;
     })
   });
 }
