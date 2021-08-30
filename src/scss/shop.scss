@@ -2,13 +2,13 @@
   &__widgets {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+
     :nth-child(n) {
-      background: #f6f6f6;
-      border: 1px solid gray;
       text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      transition: all 0.7s ease;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
@@ -26,5 +26,28 @@
       grid-column-end: span 2;
       aspect-ratio: initial;
     }
+
+    &__logo {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      background: rgba(100, 194, 158, 0.65);
+      opacity: 0;
+
+      span {
+        padding: 10px 0px 0px 0px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
   }
+}
+
+.saddle1 {
+  background: url('../img/shop/01.jpeg') center/contain no-repeat;
 }
