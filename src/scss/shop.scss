@@ -1,0 +1,30 @@
+.shop {
+  &__widgets {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    :nth-child(n) {
+      background: #f6f6f6;
+      border: 1px solid gray;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .widget {
+    &_sm {
+      aspect-ratio: 1/1;
+    }
+
+    &_col {
+      grid-row-end: span 2;
+      aspect-ratio: initial;
+    }
+
+    &_wide {
+      grid-column-end: span 2;
+      aspect-ratio: initial;
+    }
+  }
+}

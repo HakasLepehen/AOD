@@ -15,6 +15,7 @@ import "../img/brands/since-bicycles.png";
 import "../img/brands/mavic.jpeg";
 import "../img/brands/hulot-logo.png";
 import "../img/brands/twitter-logo.png";
+import '../img/shop/01.jpeg';
 
 document.querySelector(".wrapper").classList.add("loaded");
 
