@@ -17,6 +17,13 @@ import "../img/brands/hulot-logo.png";
 import "../img/brands/twitter-logo.png";
 import '../img/shop/01.jpeg';
 import '../img/shop/bike-logo.png';
+import '../img/shop/back-bag.jpeg';
+import '../img/shop/bag-bg.jpeg';
+import '../img/shop/bike-bg.jpeg';
+import '../img/shop/gallery-bg.jpeg';
+import '../img/shop/saddle2-bg.jpeg';
+import '../img/shop/saddle3-bg.jpeg';
+import '../img/shop/saddles-bg.jpeg';
 
 document.querySelector(".wrapper").classList.add("loaded");
 
