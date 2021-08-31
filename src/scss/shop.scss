@@ -6,8 +6,10 @@
     :nth-child(n) {
       text-decoration: none;
       transition: all 0.7s ease;
+      background-size: 100%;
       &:hover {
         opacity: 1;
+        background-size: 110%;
       }
     }
   }
