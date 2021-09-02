@@ -6,11 +6,15 @@
     :nth-child(n) {
       text-decoration: none;
       transition: all 0.7s ease;
-      background-size: 100%;
       &:hover {
         opacity: 1;
-        background-size: 110%;
+        background-size: 105%;
       }
+    }
+
+    @media (max-width: 1100px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
     }
   }
 
@@ -78,33 +82,33 @@
 }
 
 .saddle1 {
-  background: url("../img/shop/01.jpeg") center/contain no-repeat;
+  background: url("../img/shop/01.jpeg") center/100% no-repeat;
 }
 
 .saddles {
-  background: url("../img/shop/saddles-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/saddles-bg.jpeg") center/101% no-repeat;
 }
 
 .back-bag {
-  background: url("../img/shop/back-bag.jpeg") center/contain no-repeat;
+  background: url("../img/shop/back-bag.jpeg") center/100% no-repeat;
 }
 
 .bike {
-  background: url("../img/shop/bike-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/bike-bg.jpeg") center/101% no-repeat;
 }
 
 .gallery {
-  background: url("../img/shop/gallery-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/gallery-bg.jpeg") center/100% no-repeat;
 }
 
 .saddle2 {
-  background: url("../img/shop/saddle2-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/saddle2-bg.jpeg") center/100% no-repeat;
 }
 
 .saddle3 {
-  background: url("../img/shop/saddle3-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/saddle3-bg.jpeg") center/100% no-repeat;
 }
 
 .bag {
-  background: url("../img/shop/bag-bg.jpeg") center/contain no-repeat;
+  background: url("../img/shop/bag-bg.jpeg") center/100% no-repeat;
 }
