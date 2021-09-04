@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/png">
 
     <title>
@@ -284,17 +284,24 @@
 
                 <section class="feedback">
                     <div class="container">
-                        <div class="feedback__block form">
-                            <div class="form__logo"></div>
-                            <div class="form__title"></div>
-                            <div class="form__inpu">
-                                <input type="email" name="e-mail" id="">
+                        <div class="feedback__block">
+                            <div class="feedback__logo">
+                                <img src="./img/logo.png" alt="">
                             </div>
+                            <h3 class="feedback__title"> Stay on the saddle! </h3>
+                            <form class="feedback__form form" method="POST">
+                                <input class="form__input" type="email" name="e-mail" id="" placeholder="enter your email...">
+                                <a class="form__btn btn" type="submit"><span>go</span></a>
+                            </form>
                         </div>
                     </div>
                 </section>
             </div>
+
+            <footer></footer>  
         </main>
+
+        
     </div>
 </body>
 
