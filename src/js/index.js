@@ -24,6 +24,10 @@ import '../img/shop/gallery-bg.jpeg';
 import '../img/shop/saddle2-bg.jpeg';
 import '../img/shop/saddle3-bg.jpeg';
 import '../img/shop/saddles-bg.jpeg';
+import '../img/footer/twitter-logo.png';
+import '../img/footer/fb-logo.png';
+import '../img/footer/pinterest-logo.png';
+import '../img/footer/dev.png';
 
 document.querySelector(".wrapper").classList.add("loaded");
 
